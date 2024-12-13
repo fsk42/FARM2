@@ -35,10 +35,10 @@ const MobileNav = ({ user }: MobileNavProps) => {
             href="/"
             className="px-4 flex cursor-pointer items-center gap-1"
           >
-            <Image src="/icons/logo.png" width={34} height={34} />
+            <Image src="/icons/instagram-icon.png" width={34} height={34} />
             <h1 className="text-26 font-ibm-plex-serif font-bold text-back-1">
               {" "}
-              IT Support
+              Instagram Uploader
             </h1>
           </Link>
           <div className="mobilenav-sheet">

@@ -76,10 +76,10 @@ const AuthForm = ({ type }: { type: string }) => {
       <div className="bg-white p-8 rounded-3xl">
         <header className="flex flex-col gap-5 md-gap-8">
           <Link href="/" className=" flex cursor-pointer items-center gap-1">
-            <Image src="/icons/logo.png" width={34} height={34} alt={""} />
+            <Image src="/icons/instagram-icon.png" width={34} height={34} alt={""} />
             <h1 className="text-26 font-ibm-plex-serif font-bold text-back-1">
               {" "}
-              IT Support
+              Instagram Uploader
             </h1>
           </Link>
           <div className="flex flex-col gap-1 md:gap-3">

@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   title: "Instagram Uploader",
   description: "Instagram Uploader. Die Plattform, die dein Content automatisch hochlädt ",
   icons: {
-    icon: "/icons/logo.png",
+    icon: "/icons/instagram-icon.png",
   },
 };
 

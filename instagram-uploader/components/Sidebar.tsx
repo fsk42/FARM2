@@ -16,7 +16,7 @@ const Sidebar = ({ user }: SidebarProps) => {
       <nav className="flex flex-col gap-4">
         <Link href="/" className="mb-12 flex cursor-pointer items-center gap-2">
           <Image
-            src="/icons/logo.png"
+            src="/icons/instagram-icon.png"
             width={34}
             height={34}
             className="size-[50px] max-xl_size24"
