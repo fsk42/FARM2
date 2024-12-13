@@ -1,3 +1,5 @@
 {
-  "/(root)/page": "app/(root)/page.js"
+  "/_not-found/page": "app/_not-found/page.js",
+  "/(root)/page": "app/(root)/page.js",
+  "/(root)/uploadplan-erstellen/page": "app/(root)/uploadplan-erstellen/page.js"
 }
