@@ -21,7 +21,7 @@ const Sidebar = ({ user }: SidebarProps) => {
             height={34}
             className="size-[50px] max-xl_size24"
           />
-          <h1 className="sidebar-logo">  Support</h1>
+          <h1 className="sidebar-logo">  Instagram Uploader</h1>
         </Link>
         {sidebarLinks.map((item) => {
           const isActive =

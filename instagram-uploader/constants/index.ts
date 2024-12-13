@@ -5,13 +5,13 @@ export const sidebarLinks = [
     route: "/",
   },
   {
-    imgURL: "/icons/support-ticket.png",
+    imgURL: "/icons/upload.png",
     label: "Uploadplan erstellen",
     route: "/support-tickets",
   },
   {
-    imgURL: "/icons/online-chat.png",
-    label: "Help Chat",
+    imgURL: "/icons/chatgpt-icon.png",
+    label: "KI-Chat",
     route: "/help-chat",
   },
   {
