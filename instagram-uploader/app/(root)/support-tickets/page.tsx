@@ -1,6 +1,6 @@
 import React from "react";
 
-const SupportTickets = () => {
+const UploadplanErstellen = () => {
   return (
     <>
       <div className="page-header divide-y-2">Neuer Uploadplan erstellen</div>
@@ -12,4 +12,4 @@ const SupportTickets = () => {
   );
 };
 
-export default SupportTickets;
+export default UploadplanErstellen;

@@ -16,10 +16,10 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/(root)/support-tickets/page": [
+    "/(root)/uploadplan-erstellen/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(root)/support-tickets/page.js"
+      "static/chunks/app/(root)/uploadplan-erstellen/page.js"
     ]
   }
 }

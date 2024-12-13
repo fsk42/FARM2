@@ -14,7 +14,7 @@ const Home = async () => {
             type="greeting"
             title="Hallo"
             user={loggedIn?.firstName + " " + loggedIn?.lastName || "Gast"}
-            subtext="Erstelle ein neuen Upload."
+            subtext="Erstelle noch heute deinen neuen Uploadplan!"
           />
 
           <p></p>

@@ -1,7 +1,7 @@
 import React from "react"
 
 
-const SupportTickets = () => {
+const UploadplanErstellen = () => {
   return (
     <div className="container mx-auto px-4">
       <h1 className="text-2xl font-bold py-4 border-b-2 border-gray-200">Support</h1>
@@ -13,4 +13,4 @@ const SupportTickets = () => {
   )
 }
 
-export default SupportTickets
+export default UploadplanErstellen

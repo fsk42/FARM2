@@ -7,7 +7,7 @@ export const sidebarLinks = [
   {
     imgURL: "/icons/upload.png",
     label: "Uploadplan erstellen",
-    route: "/support-tickets",
+    route: "/uploadplan-erstellen",
   },
   {
     imgURL: "/icons/chatgpt-icon.png",
