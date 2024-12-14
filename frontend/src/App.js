@@ -1,15 +1,13 @@
 import React from "react";
 import "./App.css";
-import UploadForm from "./components/UploadForm";
+//import UploadForm from "./components/UploadForm";
+import LoginMask from "./components/loginMask";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Instagram Media Uploader</h1>
-      </header>
       <main>
-        <UploadForm />
+        <LoginMask /> {/* Render the LoginMask component */}
       </main>
     </div>
   );
