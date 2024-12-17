@@ -23,10 +23,11 @@ import PageLoader from "next/dist/client/page-loader";
 import { Loader2 } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { getLoggedInUser, signIn, signUp } from "@/lib/actions/user.actions";
-const AuthForm = ({ type }: { type: string }) => {
+//import { useRouter } from 'next/router';
+
+const AuthForm = ({ type, user }) => {
   const router = useRouter();
   const formSchema = authFormSchema(type);
-  const [user, setuser] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
 
   const form = useForm<z.infer<typeof formSchema>>({
@@ -37,6 +38,11 @@ const AuthForm = ({ type }: { type: string }) => {
     },
   });
 
+  const handleRegistrationSuccess = () => {
+    // Leite den Nutzer zum Dashboard weiter
+    router.push('/');
+  };
+
   // 2. Define a submit handler.
   const onSubmit = async (data: z.infer<typeof formSchema>) => {
     // Do something with the form values.
@@ -46,9 +52,9 @@ const AuthForm = ({ type }: { type: string }) => {
     try {
       if (type === "sign-up") {
         const newUser = await signUp(data);
-        setuser(newUser);
         if (newUser) {
           toast.success("Erfolgreich registriert!");
+          handleRegistrationSuccess();
         } else {
           toast.error("Registrierung fehlgeschlagen!");
         }
@@ -71,6 +77,7 @@ const AuthForm = ({ type }: { type: string }) => {
       setIsLoading(false);
     }
   };
+
   return (
     <section className="auth-form">
       <div className="bg-white p-8 rounded-3xl">

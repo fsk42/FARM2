@@ -19,8 +19,7 @@ const Sidebar = ({ user }: SidebarProps) => {
             src="/icons/instagram-icon.png"
             width={34}
             height={34}
-            className="size-[50px] max-xl_size24"
-          />
+            className="size-[50px] max-xl_size24" alt={""}          />
           <h1 className="sidebar-logo">  Instagram Uploader</h1>
         </Link>
         {sidebarLinks.map((item) => {

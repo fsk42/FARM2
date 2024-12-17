@@ -11,8 +11,8 @@ export const sidebarLinks = [
   },
   {
     imgURL: "/icons/chatgpt-icon.png",
-    label: "KI-Chat",
-    route: "/help-chat",
+    label: "Instagram verlinken",
+    route: "/instalink",
   },
   {
     imgURL: "/icons/qa.png",
