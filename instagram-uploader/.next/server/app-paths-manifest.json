@@ -1,0 +1,4 @@
+{
+  "/(root)/uploadplan-erstellen/page": "app/(root)/uploadplan-erstellen/page.js",
+  "/(auth)/sign-in/page": "app/(auth)/sign-in/page.js"
+}
