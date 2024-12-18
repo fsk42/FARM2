@@ -1,6 +1,4 @@
-#!/bin/sh
-'''exec' "/Users/raka/Downloads/Semester.5/Software Engineering/FARM2/backend_lib/.backend/bin/python3.12" "$0" "$@"
-' '''
+#!/Users/karaca/src/FARM2/backend_lib/.backend/bin/python3.11
 # -*- coding: utf-8 -*-
 import re
 import sys

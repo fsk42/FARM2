@@ -1,11 +1,9 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 from loginAuthenticate import authenticate_instagram_user
-import time
-from datetime import datetime, timedelta
-from threading import Timer
-from instagrapi import Client
 import os
+from datetime import datetime
+from instagrapi import Client
 
 app = Flask(__name__)
 CORS(app)
@@ -16,13 +14,49 @@ def login():
     username = data.get('username')
     password = data.get('password')
 
-    # Use the imported function to authenticate
-    result = authenticate_instagram_user(username, password)
-    # Return the result as JSON
-    if result['success']:
+    cl = Client()
+    try:
+        cl.login(username, password)
         return jsonify({'authenticated': True, 'message': 'Login successful'})
-    else:
-        return jsonify({'authenticated': False, 'message': result['error']}), 401
+    except Exception as e:
+        # Check if it's a challenge-required error
+        if 'challenge_required' in str(e):
+            # Resolve the challenge
+            challenge = cl.challenge_resolve()
+            
+            # Select email as the verification method
+            if 'email' in challenge['step_data']:
+                cl.challenge_select_verify_method('email')
+                return jsonify({
+                    'authenticated': False,
+                    'message': 'Verification required',
+                    'requiresCode': True,
+                    'method': 'email'
+                }), 401
+            else:
+                return jsonify({
+                    'authenticated': False,
+                    'message': 'Verification required, but email method not available',
+                    'requiresCode': True,
+                    'method': None
+                }), 401
+        else:
+            return jsonify({'authenticated': False, 'message': str(e)}), 401
+
+@app.route('/api/verify', methods=['POST'])
+def verify():
+    data = request.json
+    username = data.get('username')
+    password = data.get('password')
+    code = data.get('code')
+
+    cl = Client()
+    try:
+        cl.login(username, password)
+        cl.challenge_code(username, code)
+        return jsonify({'authenticated': True, 'message': 'Verification successful'})
+    except Exception as e:
+        return jsonify({'authenticated': False, 'message': str(e)}), 401
 
 @app.route('/api/uploadnow', methods=['POST'])
 def upload_now():
@@ -52,3 +86,6 @@ if __name__ == '__main__':
     if not os.path.exists('uploads'):
         os.makedirs('uploads')
     app.run(debug=True)
+
+
+

@@ -1,2 +1,4 @@
 node_modules/
 instagram-uploader/.next
+backend_lib/.backend/*
+backend_lib/.backend/
