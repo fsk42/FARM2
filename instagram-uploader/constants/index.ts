@@ -14,11 +14,11 @@ export const sidebarLinks = [
     label: "KI-Chat",
     route: "/help-chat",
   },
-  {
-    imgURL: "/icons/qa.png",
-    label: "Fragen&Antworten",
-    route: "/q&a",
-  },
+  ///{
+   /// imgURL: "/icons/qa.png",
+   /// label: "Fragen&Antworten",
+   /// route: "/q&a",
+  ///},
 
   {
     imgURL: "/icons/admin.png",
