@@ -1,4 +1,4 @@
-// File: /Users/raka/Downloads/Semester.5/Software Engineering/FARM2/instagram-uploader/app/(auth)/layout.tsx
+// File: /Users/niklasdenz/Desktop/FARM2/instagram-uploader/app/(auth)/layout.tsx
 import * as entry from '../../../../app/(auth)/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

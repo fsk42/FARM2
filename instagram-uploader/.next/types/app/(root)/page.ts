@@ -1,4 +1,4 @@
-// File: /Users/raka/Downloads/Semester.5/Software Engineering/FARM2/instagram-uploader/app/(root)/page.tsx
+// File: /Users/niklasdenz/Desktop/FARM2/instagram-uploader/app/(root)/page.tsx
 import * as entry from '../../../../app/(root)/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

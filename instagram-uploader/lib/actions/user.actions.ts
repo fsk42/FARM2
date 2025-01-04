@@ -111,7 +111,7 @@ export async function getLoggedUserInfo() {
     console.log(error);
   }
 }
-export const getUserEmail = async ({ email }: getUserInfoProps) => {
+export const getUserEmail = async ( email : string) => {
   try {
     const { database } = await createAdminClient();
 

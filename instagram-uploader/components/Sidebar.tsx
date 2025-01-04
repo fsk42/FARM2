@@ -20,6 +20,7 @@ const Sidebar = ({ user }: SidebarProps) => {
             width={34}
             height={34}
             className="size-[50px] max-xl_size24"
+             alt="icon"
           />
           <h1 className="sidebar-logo">  Instagram Uploader</h1>
         </Link>

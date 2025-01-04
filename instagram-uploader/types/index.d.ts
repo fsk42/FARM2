@@ -20,9 +20,9 @@ declare interface HeaderBoxProps {
     user: User;
   }
   declare type SignUpParams = {
-    firstName: string;
-    lastName: string;
-    course: string;
+    firstName?: string;
+    lastName?: string;
+    course?: string;
     email: string;
     passwort: string;
   };

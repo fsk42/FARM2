@@ -1,4 +1,4 @@
-// File: /Users/raka/Downloads/Semester.5/Software Engineering/FARM2/instagram-uploader/app/(root)/uploadplan-erstellen/page.tsx
+// File: /Users/niklasdenz/Desktop/FARM2/instagram-uploader/app/(root)/uploadplan-erstellen/page.tsx
 import * as entry from '../../../../../app/(root)/uploadplan-erstellen/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
