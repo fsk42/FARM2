@@ -1,0 +1,163 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: radial-gradient(
+    circle at bottom left,
+    #fcb045 15%, 
+    #833ab4 40%, 
+    #fd1d1d 100%
+  );
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  width: 500px;
+}
+
+.App h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+form {
+  width: 100%;
+}
+
+form div {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background-color: rgba(240, 240, 240, 0.8);
+  box-sizing: border-box;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  border-color: #666;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+button {
+  display: block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  margin: 20px auto; /* Zentriert jeden Button horizontal */
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.buttons-container {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.dropzone {
+  border: 2px dashed #ddd;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.dropzone:hover {
+  background-color: #f1f1f1;
+}
+
+.image-preview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.preview-img {
+  max-width: 100%;
+  max-height: 200px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.image-name {
+  font-size: 14px;
+  color: #666;
+}
+
+.drag-box {
+  border: 2px dashed #ddd;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  background-color: #ffffff;
+  color: #666;
+}
+.view-scheduled-posts {
+  display: block; /* Unabhängige Zentrierung */
+  margin: 20px auto; /* Zentriert horizontal */
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: fit-content; /* Passt die Breite an den Inhalt an */
+  min-width: 150px; /* Optional: Mindestbreite festlegen */
+}
+
+.view-scheduled-posts:hover {
+  background-color: #0056b3;
+  color: white;
+}
+.message {
+  text-align: center;
+  font-size: 16px;
+  color: #333;
+}
