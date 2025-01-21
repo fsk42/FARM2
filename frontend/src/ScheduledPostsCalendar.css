@@ -1,0 +1,167 @@
+.scheduled-posts-calendar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.custom-calendar {
+  margin: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.custom-calendar .react-calendar__tile {
+  color: black; /* Ensure black text */
+  background: white;
+  text-align: center;
+}
+
+.custom-calendar .react-calendar__tile--active {
+  background-color: #007bff; /* Blue background for active date */
+  color: white !important;
+}
+
+.custom-calendar .react-calendar__navigation {
+  color: black; /* Black month navigation text */
+  font-weight: bold;
+}
+
+.custom-calendar .react-calendar__navigation button {
+  color: black !important; /* Ensure black text for navigation buttons */
+  font-weight: bold;
+  background: none;
+  border: none;
+}
+
+.custom-calendar .react-calendar__tile--now {
+  background-color: #f0f0f0 !important; /* Light grey background for today's date */
+  border-radius: 10px;
+}
+
+.custom-calendar .highlight-tile {
+  background-color: #28a745 !important; /* Green background for scheduled posts */
+  color: white !important;
+  border-radius: 10px;
+  padding: 0;
+}
+
+.custom-calendar .highlight-tile:hover {
+  background-color: #218838 !important; /* Darker green on hover */
+}
+
+.carousel-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Center the content vertically */
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9; /* Light background */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 600px; /* Limit the width */
+  position: relative; /* Ensures child positioning works */
+}
+
+.carousel {
+  display: flex;
+  align-items: center; /* Center align the items horizontally */
+  justify-content: center;
+  position: relative;
+}
+
+.carousel-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center items vertically */
+  align-items: center; /* Center items horizontally */
+  width: 400px; /* Adjust width */
+  max-width: 80%; /* Ensure it doesn't get too wide on larger screens */
+  height: auto;
+  padding: 20px;
+  background-color: #ffffff; /* White background for the post */
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Center text inside the box */
+}
+
+.carousel-content .post-item {
+  text-align: center; /* Center align the text inside */
+  width: 100%; /* Use full width */
+  margin-bottom: 10px; /* Add spacing between post details and button */
+}
+
+.carousel-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  margin: 0 10px; /* Adds space around the buttons */
+  position: absolute; /* Position buttons relative to the container */
+  top: 50%; /* Vertically align buttons */
+  transform: translateY(-50%);
+}
+
+.carousel-button.left {
+  left: -60px; /* Adjust the position for the left button */
+}
+
+.carousel-button.right {
+  right: -60px; /* Adjust the position for the right button */
+}
+
+.button.back-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.button.back-button:hover {
+  background-color: #0056b3;
+}
+
+
+.post-item {
+  text-align: left;
+}
+
+.button.back-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.button.back-button:hover {
+  background-color: #0056b3;
+}
+
+.carousel-content .delete-button {
+  background-color: #dc3545; /* Red color for delete button */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  align-self: center; /* Ensure the button aligns centrally */
+}
+
+.carousel-content .delete-button:hover {
+  background-color: #c82333; /* Darker red for hover */
+}
