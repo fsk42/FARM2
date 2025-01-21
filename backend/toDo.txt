@@ -1,0 +1,45 @@
+###AUFLÖSUNG BEI VIDEOS
+
+#Pre-Check the Aspect Ratio in Frontend
+
+const validateAspectRatio = (file, callback) => {
+  const video = document.createElement("video");
+  video.src = URL.createObjectURL(file);
+
+  video.onloadedmetadata = () => {
+    const aspectRatio = video.videoWidth / video.videoHeight;
+    if (aspectRatio === 16 / 9 || aspectRatio === 4 / 3) {
+      callback(true); // Valid aspect ratio
+    } else {
+      callback(false); // Invalid aspect ratio
+    }
+  };
+};
+
+
+#Adjust FFmpeg in Backend for Resizing During Upload
+
+import subprocess
+
+def process_video(file_path, output_path):
+    ffmpeg_command = [
+        "ffmpeg", "-i", file_path, "-vf", "scale=1280:720,setdar=16/9", output_path
+    ]
+    subprocess.run(ffmpeg_command, check=True)
+
+
+#Backend Processing
+
+import os
+from instagrapi import Client
+
+def upload_video(video_path, caption):
+    processed_path = f"{os.path.splitext(video_path)[0]}_processed.mp4"
+    process_video(video_path, processed_path)
+    cl = Client()
+    cl.video_upload(processed_path, caption)
+    os.remove(processed_path)
+
+###
+
+
