@@ -1,40 +1,40 @@
-# Unit Tests
+# Einheitstests
 
-This directory contains unit tests for both frontend and backend components of the FARM2 project.
+Dieses Verzeichnis enthält Unit-Tests für Frontend- und Backend-Komponenten des FARM2-Projekts.
 
-## Backend Tests
+## Backend-Tests
 
-To run the backend tests, you need to install the required dependencies first:
+Um die Backend-Tests auszuführen, müssen Sie zunächst die erforderlichen Abhängigkeiten installieren:
 ```bash
 pip install pytest fastapi pytest-asyncio httpx
 ```
 
-Then run the tests with:
+Führen Sie die Tests dann mit folgendem Befehl aus:
 ```bash
 python -m pytest test_backend.py -v
 ```
 
-## Frontend Tests
+## Frontend-Tests
 
-To run the frontend tests, make sure you have all dependencies installed:
+Um die Frontend-Tests auszuführen, stellen Sie sicher, dass alle Abhängigkeiten installiert sind:
 ```bash
 cd ../frontend
 npm install --save-dev @testing-library/react @testing-library/jest-dom jest
 ```
 
-Then run the tests with:
+Führen Sie die Tests dann mit:
 ```bash
 npm test
 ```
 
-## Test Coverage
+## Testabdeckung
 
-- Backend tests cover:
-  - Root endpoint
-  - Login functionality
-  - File upload functionality
+- Backend-Tests decken ab:
+  - Root-Endpunkt
+  - Login-Funktionalität
+  - Dateiupload-Funktionalität
 
-- Frontend tests cover:
-  - Main App component rendering
-  - Login form functionality
-  - API integration
+- Frontend-Tests decken ab:
+  - Rendering der Haupt-App-Komponente
+  - Funktionalität des Login-Formulars
+  - API-Integration
