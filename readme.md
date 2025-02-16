@@ -29,4 +29,4 @@ npm start
 ```
 
 ## Dokumentation
-Die ausführliche Dokumentation finden Sie im Ordner [Dokumentation](src/FARM2/Dokumentation).
+Die ausführliche Dokumentation finden Sie im Ordner [Dokumentation](Dokumentation).

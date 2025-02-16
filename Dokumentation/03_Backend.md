@@ -46,7 +46,6 @@ CREATE TABLE scheduled_posts (
     media_path TEXT NOT NULL,
     scheduled_time TIMESTAMP NOT NULL,
     status VARCHAR(20) DEFAULT 'pending',
-    error_message TEXT
 );
 ```
 
