@@ -1,0 +1,146 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
+  <diagram name="Page-1" id="YirSNepnzgTk4hFbEIbC">
+    <mxGraphModel dx="1640" dy="1042" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="854" pageHeight="480" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_TTIaXbgJciFCAXxUuAe-5" value="&lt;b&gt;For Development&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="155" y="40" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_TTIaXbgJciFCAXxUuAe-6" value="&lt;b&gt;For Production&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="635" y="40" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_TTIaXbgJciFCAXxUuAe-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="_TTIaXbgJciFCAXxUuAe-7" target="_TTIaXbgJciFCAXxUuAe-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_TTIaXbgJciFCAXxUuAe-7" value="Frontend" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="60" y="240" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_TTIaXbgJciFCAXxUuAe-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_TTIaXbgJciFCAXxUuAe-8" target="_TTIaXbgJciFCAXxUuAe-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_TTIaXbgJciFCAXxUuAe-8" value="Web Server" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="190" y="240" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_TTIaXbgJciFCAXxUuAe-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="_TTIaXbgJciFCAXxUuAe-9" target="_TTIaXbgJciFCAXxUuAe-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_TTIaXbgJciFCAXxUuAe-9" value="Database" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="190" y="100" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_TTIaXbgJciFCAXxUuAe-11" value="Instagram API" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#000000;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.cloud_control_api;" vertex="1" parent="1">
+          <mxGeometry x="330" y="245" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_TTIaXbgJciFCAXxUuAe-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="_TTIaXbgJciFCAXxUuAe-12" target="_TTIaXbgJciFCAXxUuAe-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_TTIaXbgJciFCAXxUuAe-12" value="Frontend" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="540" y="240" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_TTIaXbgJciFCAXxUuAe-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="_TTIaXbgJciFCAXxUuAe-13" target="_TTIaXbgJciFCAXxUuAe-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_TTIaXbgJciFCAXxUuAe-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="_TTIaXbgJciFCAXxUuAe-13" target="_TTIaXbgJciFCAXxUuAe-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_TTIaXbgJciFCAXxUuAe-13" value="Web Server" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="670" y="240" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_TTIaXbgJciFCAXxUuAe-15" value="Instagram API" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#000000;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.cloud_control_api;" vertex="1" parent="1">
+          <mxGeometry x="810" y="245" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_TTIaXbgJciFCAXxUuAe-16" value="Cloud Storage" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="641" y="90" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_TTIaXbgJciFCAXxUuAe-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="_TTIaXbgJciFCAXxUuAe-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="139.99999999999977" y="529.9999999999998" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_TTIaXbgJciFCAXxUuAe-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="_TTIaXbgJciFCAXxUuAe-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="139.99999999999977" y="530" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_TTIaXbgJciFCAXxUuAe-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" target="_TTIaXbgJciFCAXxUuAe-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="139.99999999999977" y="529.9999999999998" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_TTIaXbgJciFCAXxUuAe-18" value="User Login" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_TTIaXbgJciFCAXxUuAe-35" value="Fetch files to Storage" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;horizontal=0;" edge="1" parent="1" source="_TTIaXbgJciFCAXxUuAe-19" target="_TTIaXbgJciFCAXxUuAe-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_TTIaXbgJciFCAXxUuAe-37" value="Directly from Storage fetched but not Best Practices" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#FF3333;align=right;" edge="1" parent="1" source="_TTIaXbgJciFCAXxUuAe-19" target="_TTIaXbgJciFCAXxUuAe-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1060" y="830" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_TTIaXbgJciFCAXxUuAe-19" value="Storage" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="630" y="770" width="67.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_TTIaXbgJciFCAXxUuAe-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_TTIaXbgJciFCAXxUuAe-20" target="_TTIaXbgJciFCAXxUuAe-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_TTIaXbgJciFCAXxUuAe-20" value="Scheduler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_TTIaXbgJciFCAXxUuAe-36" value="Send API Request to Instagram" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_TTIaXbgJciFCAXxUuAe-23" target="_TTIaXbgJciFCAXxUuAe-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_TTIaXbgJciFCAXxUuAe-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="_TTIaXbgJciFCAXxUuAe-23" target="_TTIaXbgJciFCAXxUuAe-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_TTIaXbgJciFCAXxUuAe-50" value="Fetch files from Backend from Public URL" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="_TTIaXbgJciFCAXxUuAe-23" target="_TTIaXbgJciFCAXxUuAe-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_TTIaXbgJciFCAXxUuAe-23" value="API Gateway" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_TTIaXbgJciFCAXxUuAe-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_TTIaXbgJciFCAXxUuAe-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_TTIaXbgJciFCAXxUuAe-28" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Upload a scheduled Posts&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_TTIaXbgJciFCAXxUuAe-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_TTIaXbgJciFCAXxUuAe-29" target="_TTIaXbgJciFCAXxUuAe-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_TTIaXbgJciFCAXxUuAe-29" value="Show Calender of Scheduled Posts" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_TTIaXbgJciFCAXxUuAe-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_TTIaXbgJciFCAXxUuAe-30" target="_TTIaXbgJciFCAXxUuAe-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_TTIaXbgJciFCAXxUuAe-30" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Set a scheduled Posts&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_TTIaXbgJciFCAXxUuAe-31" value="Instagram API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_TTIaXbgJciFCAXxUuAe-33" value="User Database" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="550" y="910" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_TTIaXbgJciFCAXxUuAe-34" value="Media Data Storage" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="720" y="910" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_TTIaXbgJciFCAXxUuAe-46" value="Upload Files to storage" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;horizontal=0;" edge="1" parent="1" source="_TTIaXbgJciFCAXxUuAe-23" target="_TTIaXbgJciFCAXxUuAe-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_TTIaXbgJciFCAXxUuAe-52" value="Store all Scheduled Information for Posts in Storage" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=-0.008;entryY=0.906;entryDx=0;entryDy=0;entryPerimeter=0;horizontal=0;" edge="1" parent="1" source="_TTIaXbgJciFCAXxUuAe-23" target="_TTIaXbgJciFCAXxUuAe-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
